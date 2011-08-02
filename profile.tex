@@ -1,0 +1,157 @@
+% Created 2010-11-21 su. 21:15
+\documentclass[11pt,a4paper,oneside,twocolumn=true]{report}
+%% TODO: Change to twoside for print version, remove draft
+
+%% That geometry is fugly... ugh
+\usepackage[left=20mm,top=20mm,right=20mm,bottom=18mm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}                 % needs to be before hyperref when using fixme
+\usepackage[draft=false]{hyperref}
+\usepackage[english]{babel} % or whatever language
+\usepackage{natbib}
+\usepackage{setspace} 	% Zeilenabstand
+\usepackage{graphics}
+\usepackage{fmtcount} % displaying  counters
+\usepackage{lscape}
+\usepackage{capt-of}
+
+
+\graphicspath{{./figures/}}
+
+
+\usepackage{pslatex}
+\usepackage{multicol}
+
+
+\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
+
+
+
+% template settings
+
+\setcounter{secnumdepth}{0}
+\pagestyle{empty}
+\setlength{\parindent}{0mm}
+
+
+%use arial
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+
+
+%\parskip 5mm plus 2mm minus 2mm 
+
+\begin{document}
+\setlength{\columnsep}{.25in}
+\begin{multicols}{2}
+
+
+{\LARGE John Doe}
+\vspace{0.5cm}
+
+{\Large Software-Entwicklung und Beratung}
+
+\HRule
+
+John Doe 
+Street 111	
+80538 City 	
+
+Lorem ipsum dolor sit amet, 
+consetetur sadipscing elitr, 
+sed diam nonumy eirmod tempor 
+invidunt ut labore et dolore magna aliquyam
+
+\section{Kontakt}
+\HRule
+
+
+\includegraphics{foobar}
+
+John Doe
+
+06. Januar 1979
+
+
+
+\section{Profil}
+\subsection{Berufserfahrung}
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+
+sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+
+ aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+
+justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+
+ takimata sanctus est Lorem ipsum dolor sit amet. 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+
+diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+
+
+	\subsection{Ausbildung}
+
+	  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+
+	sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+
+	 aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+
+	justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+
+	 takimata sanctus est Lorem ipsum dolor sit amet. 
+
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed 
+
+	diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+	
+	\section{Leistungen}
+	  Lorem ipsum dolor
+	  sit amet, consetetur
+	  sadipscing elitr, 
+
+	sed 
+	   diam nonumy 
+	   eirmod tempor 
+	   invidunt ut labore et dolore magna
+
+	 aliquyam
+	    erat, sed diam voluptua.
+	    At vero eos et accusam et 
+	   justo duo dolores et ea rebum.  
+	    takimata sanctus est Lorem  
+	   Lorem ipsum dolor sit amet	
+	
+	\section{Kompetenzen in Technologien}
+	  Lorem ipsum
+	\begin{itemize} 
+	\item dolor sit amet, 
+	 \item consetetur sadipscing elitr, 
+    \end{itemize}
+	  Lorem ipsum
+	\begin{itemize} 
+	\item dolor sit amet, 
+	 \item consetetur sadipscing elitr, 
+    \end{itemize}
+	  Lorem ipsum
+	\begin{itemize} 
+	\item dolor sit amet, 
+	 \item consetetur sadipscing elitr, 
+    \end{itemize}
+	  Lorem ipsum
+	\begin{itemize} 
+	\item dolor sit amet, 
+	 \item consetetur sadipscing elitr, 
+    \end{itemize}
+	  Lorem ipsum
+	\begin{itemize} 
+	\item dolor sit amet, 
+	 \item consetetur sadipscing elitr, 
+    \end{itemize}
+	
+\end{multicols}
+\end{document}
